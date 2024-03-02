@@ -41,7 +41,7 @@ const ShowResult = ({ userChoice, computerchoice,result }) => {
     computerchoice === "paper" && userChoice === "rock") {
     return (<div className="result">computer is win</div>)
 }else{
-    return(<div className= {result}>drop</div>)
+    return(<div className= {result}>draw</div>)
 }
 }
 export default ShowResult

@@ -1,11 +1,20 @@
 body{
-  background-color: rgb(20, 136, 175);
+  background-color: grey;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 .btn{
-  padding: 15px;
-  border-radius: 3px solid;
-  font-size: 2rem;
-  margin: 5px;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+  font-size: 2.6rem;
+}
+.heading{
+  text-align: center;
 }
 .show{
     background-color: pink;
@@ -13,7 +22,6 @@ body{
     height: 120px;
     width: 120px;
     font-size: 2.6rem;
-    margin: 20px;
     box-shadow: 4px 5px 6px 6px black;
     border-radius: 5px;
     padding: 20px;
@@ -43,5 +51,15 @@ body{
     padding: 15px;
     box-shadow: 4px 5px 6px 6px black;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
 }
 
+.join{
+  display: flex;
+  justify-content: center;
+}
+.results-div{
+  display: flex;
+    justify-content: center;
+}
